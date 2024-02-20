@@ -4,6 +4,8 @@
   "description": "React learning by sujitha",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "startprodBuild": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -22,11 +24,17 @@
   },
   "homepage": "https://github.com/SujithaKundetiGit/reactJS-basicCode#readme",
   "devDependencies": {
+    "constants-browserify": "^1.0.0",
     "parcel": "^2.11.0",
-    "process": "^0.11.10"
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.0"
   }
 }
